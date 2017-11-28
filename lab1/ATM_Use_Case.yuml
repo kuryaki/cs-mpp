@@ -1,0 +1,12 @@
+// {type:usecase}
+// {direction:leftToRight}
+[User]-(Inserts PIN)
+(Inserts PIN)>(Checks PIN Validity)
+[User]-(Chooses Account Type)
+(Chooses Account Type)>(Checks Account Availability)
+[User]-(Selects Amount)
+(Selects Amount)>(Makes Account Transaction)
+(Selects Amount)>(Dispatch Cash)
+[User]-(Picks Money)
+[User]-(Selects Receipt Type)
+

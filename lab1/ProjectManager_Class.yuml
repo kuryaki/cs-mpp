@@ -1,0 +1,11 @@
+// {type:class}
+// {direction:topDown}
+[Landlord||]<>-manage*>[Property|landlord:Landlord;address:Address|]
+[Property]^-[House|lotSize:String;address:Address|]
+[Property]^-[Condominium|floors:Integer;address:Address|]
+[Property]^-[TrailerPark|address:Address|]
+[TrailerPark]<>-have*>[Trailer|trailerPark:TrailerPark|]
+[Address|text:String;city:String|]
+
+
+

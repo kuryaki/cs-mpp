@@ -1,0 +1,10 @@
+// {type:class}
+// {direction:topDown}
+[ProjectManager||]<>-manage*>[Project|manager:ProjectManager|]
+[Project]<>-contains*>[Release|project:Project;dueDate:Date;createdBy:ProjectManager|]
+[Release]<>-contains*>[Feature|release:Release;time:Intenger;developer:Developer;assignedBy:ProjectManager|]
+[Developer|id:UUID|]<>-works*>[Feature]
+[ProjectManager||]<>-manage*>[Developer]
+
+
+
