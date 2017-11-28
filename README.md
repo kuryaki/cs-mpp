@@ -3,9 +3,7 @@ MSCS @ Maharishi - MPP course
 
 ## UML
 
-UML Diagrams are created with [yuml](https://yuml.me/), using a visual [plugin](https://marketplace.visualstudio.com/items?itemName=JaimeOlivares.yuml), saved with `.yuml` extension
-
-**Note**: Extension cannot export to PNG so for use case diagrams just split by, and append to `https://yuml.me/diagram/scruffy/usecase/`
+UML Diagrams are created with [starUML](http://staruml.io/), and exported using [XMI extension](https://github.com/staruml/XMI), then exported to PNG to be included in the lab document.
 
 ## Documents
 
