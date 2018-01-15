@@ -9,9 +9,17 @@
 |3. User choose between preset ammounts of money to withdraw    |3. System checks against the bank the availability of the money if ok count and deliver the money
 |4. Use choose if wants the receipt on screen or printed    |4. System prints the receipt and closes the transaction/session
 
+
+<div style="page-break-after: always;"></div>
+
+
 ## 2. Use Case Diagram
 
 ![Diagram](use_case.png)
+
+
+<div style="page-break-after: always;"></div>
+
 
 ## 3. Project Management Tracking System
 
@@ -39,6 +47,10 @@ A `Project Manager` manages multiple `projects`. A `project`, before `final rele
 ### Diagram:
 
 ![Diagram](PM_class_diagram.png)
+
+
+<div style="page-break-after: always;"></div>
+
 
 ## 4. Properties Management System
 
