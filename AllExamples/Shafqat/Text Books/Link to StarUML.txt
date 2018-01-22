@@ -1,0 +1,1 @@
+http://docs.staruml.io/en/latest/modeling-with-uml/working-with-class-diagram.html#uml-class

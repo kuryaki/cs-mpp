@@ -1,0 +1,3 @@
+Modify the code here so that construction
+of Order objects is controlled by a factory
+method.

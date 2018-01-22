@@ -16,6 +16,9 @@ public class Factory {
 		
 		Student david = createStudent("david");
 		GradeReport davidReport = david.getGradeReport();
+		
+		Student Elham = new Student("Elham");
+		GradeReport elhamReport = Elham.getGradeReport();
 	}
 
 }

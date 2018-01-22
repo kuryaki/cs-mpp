@@ -1,0 +1,9 @@
+Use the try-with-resources construct to rewrite the class OldFileIO, 
+which reads a file word_test.txt using pre-Java 8 approach. 
+
+Do the following:
+- Include a catch clause to catch the primary IOException if there is one. 
+- In your catch clause, loop through and print any suppressed exceptions 
+  that may be thrown (as in the slides)
+- Notice how the file word_test.txt is accessed in OldFileIO 
+  (see FILE_LOCATION constant). Should this be improved? How?

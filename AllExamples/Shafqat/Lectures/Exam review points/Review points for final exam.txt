@@ -1,0 +1,91 @@
+Final Exam Points
+
+1. Comparator 
+      consistent with equals
+	  comparing, thenComparing methods
+
+2. translating lambda to inner class, and conversely
+
+3. given a lambda, find a suitable type, turn
+it into a method reference, indicate the type of 
+method reference (one of 4 possibilities)
+
+3.5 translate a method reference into a lambda
+
+4. using default and static methods in an interface,
+and the syntax rules for handling clashes
+
+5. identify parameters and free variables in a
+lambda expression
+
+6. using the new forEach method on Iterable
+
+7. be familiar with these functional interfaces:
+
+Consumer
+BiConsumer
+Supplier
+Function
+BiFunction
+TriFunction
+Predicate
+BiPredicate
+Comparator
+
+8. create lambda/stream pipeline to solve problems;
+transform into a lambda library expression
+
+9. know how to use the following stream operations
+
+filter
+map
+flatMap
+count
+collect(Collectors.toList())
+collect(Collectors.joining());
+collect(Collectors.joining(", "));
+collect(Collectors.summarizingInt(...))  //for IntSummaryStatistics
+of
+generate
+iterate
+limit
+skip
+concat
+distinct
+sorted
+max(Comparator)
+findFirst
+findAny
+reduce
+
+10. IntStream operations
+
+not available in Stream:
+range
+rangeClosed
+Stream -> IntStream:  mapToInt
+IntStream -> Stream:  boxed
+toArray
+sum, average, max, min
+
+10 use the Optional class when necessary
+
+11. techniques for stream "reuse"
+
+12. techniques for testing a lambda/stream pipeline
+
+13. handling exceptions that are thrown in the middle
+of a lambda/stream pipeline
+
+14. be able to use the get and put principle to guide
+proper usage of ?, ?extends, and ?super wildcard types.
+
+15. create a generic program using generics
+
+16. restrictions on usage of type variables and parametrized types
+
+
+
+
+
+

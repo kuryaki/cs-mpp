@@ -1,0 +1,3 @@
+ij.driver=org.apache.derby.jdbc.ClientDriver
+ij.protocol=jdbc:derby://localhost:1527/
+ij.database=MPP_DB;create=true

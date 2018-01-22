@@ -4,9 +4,14 @@ public class Student {
 	String name;
 	GradeReport gradeReport;
 	
-	public Student(String name, GradeReport gradeReport) {
+	Student(String name, GradeReport gradeReport) {
 		this.name = name;
 		this.gradeReport = gradeReport;
+	}
+	
+	public Student(String name) {
+		this.name = name;
+		this.gradeReport = new GradeReport(this);
 	}
 
 	public void setGradeReport(GradeReport gradeReport) {
