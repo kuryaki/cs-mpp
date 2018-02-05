@@ -1,0 +1,4 @@
+Error:
+
+Comparison is implemented with List.containts
+List.contains evaluates using element1.equals(element2)
